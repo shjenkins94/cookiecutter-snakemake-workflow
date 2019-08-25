@@ -1,8 +1,8 @@
 {
-  "full_name": "Johannes Köster",
-  "email": "johannes.koester@protonmail.com",
-  "username": "johanneskoester",
-  "project_name": "RNA-Seq",
-  "repo_name": "rna-seq",
-  "min_snakemake_version": "3.12.0"
+  "full_name": "Scott Jenkins",
+  "email": "shjenkins94@gmail.com",
+  "username": "shjenkins94",
+  "project_name": "olflo",
+  "repo_name": "olflo",
+  "min_snakemake_version": "5.5.4"
 }
