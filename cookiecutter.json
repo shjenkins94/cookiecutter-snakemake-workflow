@@ -2,7 +2,7 @@
   "full_name": "Scott Jenkins",
   "email": "shjenkins94@gmail.com",
   "username": "shjenkins94",
-  "project_name": "olflo",
-  "repo_name": "olflo",
-  "min_snakemake_version": "5.5.4"
+  "project_name": "PROJECT NAME",
+  "repo_name": "PROJECT NAME",
+  "min_snakemake_version": "5.10"
 }

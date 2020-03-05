@@ -1,0 +1,12 @@
+*
+!intermediate
+!logs
+!resources
+!resources/*
+!scripts
+!scripts/common
+!target
+!config.yaml
+!samples.tsv
+!README.md
+!.gitignore
