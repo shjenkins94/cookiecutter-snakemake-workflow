@@ -3,12 +3,12 @@
 !config/*
 !resources
 !resources/*
-results
-results/*
+!results
+!results/*
 !results/README.md
 !workflow
 !workflow/**
-.gitignore
+!.gitignore
 !.gitattributes
 !.editorconfig
 !.test
