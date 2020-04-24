@@ -1,11 +1,11 @@
 *
+!analysis
+!analysis/*
+!analysis/README.md
 !config
 !config/*
 !resources
 !resources/*
-!analysis
-!analysis/*
-!analysis/README.md
 !workflow
 !workflow/**
 !.gitignore
