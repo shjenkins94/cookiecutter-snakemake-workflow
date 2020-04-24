@@ -3,9 +3,9 @@
 !config/*
 !resources
 !resources/*
-!results
-!results/*
-!results/README.md
+!analysis
+!analysis/*
+!analysis/README.md
 !workflow
 !workflow/**
 !.gitignore
