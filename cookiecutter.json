@@ -4,5 +4,5 @@
   "username": "shjenkins94",
   "project_name": "PROJECT NAME",
   "repo_name": "PROJECT NAME",
-  "min_snakemake_version": "5.10"
+  "min_snakemake_version": "5.17"
 }
