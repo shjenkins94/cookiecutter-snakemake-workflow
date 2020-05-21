@@ -1,0 +1,37 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+# possible entries of the config file and which type they should be
+properties:
+  meta:
+    type: string
+  samples:
+    type: string
+  genome:
+    type: string
+  features:
+    type: string
+  
+  params:
+    type: object
+    properties:
+      trimmomatic:
+        type: object
+        properties:
+          trimmer:
+            type: array
+            items: 
+              type: string
+        required:
+          - trimmer
+    required:
+      - trimmomatic
+# entries that have to be in the config file for successful validation
+required:
+  - meta
+  - samples
+  - genome
+  - params

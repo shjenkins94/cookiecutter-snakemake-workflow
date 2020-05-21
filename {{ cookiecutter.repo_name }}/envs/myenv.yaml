@@ -1,0 +1,6 @@
+name:
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:

@@ -1,0 +1,22 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+description: row of samples.tsv, representing a sequencing sample.
+type: object
+# columns that the config/samples.tsv file can have and which type they should be
+properties:
+  cid:
+    type: string
+    description: condition ID
+  rid:
+    type: string
+    description: replicate id
+  fq1:
+    type: string
+    description: path to FASTQ file
+  fq2:
+    type: string
+    description: path to second FASTQ file (leave empty in case of single-end)
+# columns that the config/samples.tsv file must have to pass schema validation
+required:
+  - cid
+  - rid
+  - fq1

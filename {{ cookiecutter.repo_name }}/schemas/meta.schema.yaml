@@ -1,0 +1,15 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+description: Sample conditions and condition IDs.
+type: object
+# columns that the config/samples.tsv file can have and which type they should be
+properties:
+  cid:
+    type: string
+    description: condition ID
+  condition:
+    type: string
+    description: condition to analyze
+# columns that the config/samples.tsv file must have to pass schema validation
+required:
+  - cid
+  - condition
